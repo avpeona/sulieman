@@ -1,0 +1,75 @@
+@media (min-width: 600px) {
+    input[type="submit"] {
+      background-color: black;
+      color: white;
+      width: 300px;
+      height: 100px;
+      padding: 20px;
+      font-size: 40px;
+      margin-top: 100px;
+      margin-right: 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+  
+    input[type="text"],
+    select,
+    textarea {
+      width: 60%;
+      height: 100px;
+      padding: 20px;
+      font-size: 40px;
+      margin-top: 100px;
+      margin-left: 20px;
+      border: 1px solid black;
+      border-radius: 4px;
+      box-sizing: border-box;
+      resize: vertical;
+      text-align: center;
+    }
+  
+    p {
+      width: 95%;
+      height: 90px;
+      font-size: 40px;
+      margin-top: 100px;
+      margin-left: 18px;
+      border: 1px solid black;
+      border-radius: 4px;
+      box-sizing: border-box;
+      resize: vertical;
+      text-align: center;
+      padding: 15px 5px 5px 5px;
+      font-family: sans-serif;
+    }
+  
+    h1 {
+      font-size: 70px;
+      text-align: center;
+      font-style: italic;
+      border: 2px solid black;
+    }
+  
+    h2 {
+      font-size: 40px;
+      margin-left: 20px;
+      margin-top: 100px;
+      color: black;
+    }
+  
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .image {
+      border-radius: 8px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 300px;
+      width: 40%;
+      margin-bottom: 50px;
+    }
+  }
